@@ -1,0 +1,65 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=.8, maximum-scale=12.0, minimum-scale=.25, user-scalable=yes"/>
+<title>Metrobús</title>
+<link rel="stylesheet" type="text/css" href="../css/header_layout.css">
+<link rel="stylesheet" type="text/css" href="../css/metromx.css">
+<link rel="stylesheet" type="text/css" href="../css/boilerplate.css">
+<script type="text/javascript" src="../js/jquery.js"></script>
+<script type="text/javascript" src="../js/funcionesMetrobus.js"></script>
+</head>
+
+<body>
+<div id="container">
+
+<section role="region" class="skin-red">
+    
+  		<header>
+       	<img id="header_icon" src="../img/btn_mb_01.png"/>
+  	 	<a href="../home.html"><span class="icon icon-back">back</span></a>
+    	<h1>Metro</h1>
+  </header>
+
+  		<header>
+   		<h2></h2>
+  		</header>
+        
+	</section>
+    
+    
+		<div class="mapa_ruta">
+       <a href="mb_mapa.html"><img src="../img/mapa_mb.jpg"/></a>
+		</div>
+    
+    
+    
+        <section id="ruta_mb" class="clearfix">
+            <label id="donde_estas">
+                <p id="text origen">
+                En que estación te encuentras
+                </p>
+    <select id="estacionActual"  onchange="mapear('estacionActual')"> 
+        <option value="nada" selected="selected">--Seleccione la Estación--</option>
+    </select>
+            </label>
+            <label id="donde_vas">
+                <p id="text destino">
+                Cual es tu estación destino
+                </p>
+    <select id="estacionDestino" onchange="mapear('estacionDestino')"> 
+        <option value="nada" selected="selected">--Seleccione la Estacion--</option>
+    </select>
+            </label>
+            <div id="resultadoActual" class="clearfix">
+            </div>
+            <div id="resultadoDestino" class="clearfix">
+            </div>
+        </section>
+    
+    
+    
+    
+</body>
+</html>

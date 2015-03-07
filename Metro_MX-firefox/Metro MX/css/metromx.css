@@ -1,0 +1,207 @@
+@charset "UTF-8";
+/* CSS Document */
+
+@font-face
+{
+font-family:Fira Sans;
+src:url(../fonts/FiraSansOT-Light.woff);
+font-weight:ligth;
+}
+
+body {
+   margin:0;
+   padding:0;
+   height:100%;
+   background-color: #2c353b;
+
+}
+
+#container{
+	min-height:100%;
+   position:relative;
+}
+
+
+#header_icon {
+    float: right;
+    width: auto;
+    height: auto;
+    margin-left: 0px;
+    margin-top: 10px;
+    clear: none;
+    margin-right: 2%;
+    max-width: 6rem;
+}
+
+
+.mapa {
+  width: 100%;
+}
+
+.mapa img {
+  max-width: 100%;
+  height: auto;
+  width:auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+  }
+
+#ruta  {
+	float: none;
+	/* [disabled]height: 100%; */
+	margin-left: auto;
+	margin-top: 0px;
+	clear: none;
+	width: 100%;
+	margin-right: auto;
+	margin-bottom: 0px;
+	background-color: rgba(255,130,2,1.00);
+	color: rgba(255,255,255,1.00);
+}
+
+#ruta_mb  {
+	float: none;
+	/* [disabled]height: 100%; */
+	margin-left: auto;
+	margin-top: 0px;
+	clear: none;
+	width: 100%;
+	margin-right: auto;
+	margin-bottom: 0px;
+	background-color: #ED1C2E;
+	color: rgba(255,255,255,1.00);
+}
+
+
+
+#donde_estas {
+	float: none;
+	display: block;
+	text-align: left;
+	margin-left: auto;
+	margin-top: 7px;
+	width: 75%;
+	margin-right: auto;
+	font-size:1.4em;
+}
+
+#estacionActual {
+	float: none;
+	height: 100%;
+	font-size: 1em;
+	display: block;
+	/* [disabled]width: 90%; */
+	margin-top: 5px;
+	margin-left: auto;
+	clear: none;
+	margin-right: auto;
+	border: 0 !important;
+	webkit-appearance: none;
+	-moz-appearance: none;
+	text-indent: 0.01px;
+	text-overflow: "";
+	text-align: center;
+	border-radius: 10px;
+	vertical-align: middle;
+	min-width: 100%;
+	margin-bottom: 20px;
+}
+
+#text origen{
+	float: left;
+	font-size: 2em;
+	text-align: left;
+	display: block;
+	margin-left: auto;
+	clear: none;
+	margin-top: 0px;
+	color: rgb(0, 0, 0);
+}
+
+#donde_vas {
+	float: none;
+	display: block;
+	text-align: left;
+	margin-left: auto;
+	margin-top: 7px;
+	width: 75%;
+	margin-right: auto;
+	font-size:1.4em;
+
+}
+
+#text destino {
+	float: left;
+	font-size: 2em;
+	text-align: left;
+	display: block;
+	margin-left: auto;
+	clear: none;
+	margin-top: 0px;
+	color: rgb(0, 0, 0);
+}
+
+#estacionDestino {
+	float: none;
+	height: 100%;
+	font-size: 1em;
+	display: block;
+	/* [disabled]width: 90%; */
+	margin-top: 5px;
+	margin-left: auto;
+	clear: none;
+	margin-right: auto;
+	border: 0 !important;
+	webkit-appearance: none;
+	-moz-appearance: none;
+	text-indent: 0.01px;
+	text-overflow: "";
+	text-align: center;
+	border-radius: 10px;
+	vertical-align: middle;
+	min-width: 100%;
+	margin-bottom: 20px;
+}
+
+#resultadoActual {
+	float: left;
+	height: 150px;
+	margin-left: 3%;
+	margin-top: 5px;
+	clear: none;
+	width: 40%;
+	margin-bottom: 0px;
+	margin-right: 0px;
+	font-weight: bold;
+	text-align: center;
+	font-size: 1em;
+}
+
+#resultadoDestino {
+	float: right;
+	height: 150px;
+	margin-left: 0px;
+	margin-top: 5px;
+	clear: none;
+	width: 40%;
+	margin-bottom: 0px;
+	margin-right: 3%;
+	font-weight: bold;
+	text-align: center;
+	font-size: 1em;
+}
+
+.mapa_ruta {
+	width: 70%;
+	float: none;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 20px;
+}
+
+.mapa_ruta img {
+	max-width: 100%;
+	height: auto;
+  }

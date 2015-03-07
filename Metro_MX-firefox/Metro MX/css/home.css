@@ -1,0 +1,215 @@
+@charset "UTF-8";
+
+@font-face
+{
+font-family:Fira Sans;
+src:url(../fonts/FiraSansOT-Light.woff);
+font-weight:ligth;
+}
+
+.Contenedor {
+    height: auto;
+    margin-left: auto;
+    min-height: 100%;
+    width: 100%;
+    background-color: rgb(45, 47, 49);
+    padding-top: 0px;
+    position: relative;
+    min-width: 300px;
+    clear: none;
+    margin-right: auto;
+}
+
+#titulo_icon{
+	float: none;
+	margin-left: auto;
+	margin-right: auto;
+	height: 80%;
+	padding-left: 10%;
+	padding-top: 10px;
+}
+
+#info_icon{
+	width:15%;
+	height:auto;
+	float:right;
+	margin:5%;
+}
+
+
+#menu_metro {
+    float: none;
+    height: auto;
+    margin: 0% auto 0px;
+    clear: none;
+    width: 90%;
+    background-color: rgb(255, 130, 2);
+    border-top-left-radius: 100px;
+    border-top-right-radius: 100px;
+    border-bottom-right-radius: 100px;
+    border-bottom-left-radius: 100px;
+    min-height: 0px;
+    min-width: 320px;
+    position: relative;
+    box-shadow: rgba(0, 0, 0, 0.2) 6px 4px 2px 0px;
+    border: 3px solid rgb(214, 108, 0);
+    opacity: 1;
+}
+
+#menu_icon {
+    float: left;
+    width: 19.9979%;
+    max-width: 30%;
+    height: 100%;
+    margin-left: 5%;
+    margin-top: 0px;
+    clear: none;
+    color: rgb(0, 0, 0);
+    min-width: 0px;
+    max-height: none;
+    min-height: 0px;
+}
+
+#menu_Text {
+	float: left;
+	width: auto;
+	height: auto;
+	text-align: center;
+	clear: none;
+	min-height: 0px;
+	color: rgb(255, 255, 255);
+	position: static;
+	top: 0px;
+	left: 0px;
+	margin-top: 6%;
+	margin-right: auto;
+	margin-left: 5%;
+	margin-bottom: auto;
+	max-width: none;
+	font-family: "METRO DF";
+	font-weight: bold;
+}
+
+#submenus {
+    float: left;
+    height: auto;
+    margin: 5% 0px 0px 0%;
+    clear: none;
+    width: 100%;
+}
+
+#menu_mb {
+    float: none;
+    height: auto;
+    margin: 1.997328% auto 0px;
+    clear: none;
+    width: 90%;
+    border-top-left-radius: 100px;
+    border-top-right-radius: 100px;
+    border-bottom-right-radius: 100px;
+    border-bottom-left-radius: 100px;
+    min-height: 0px;
+    min-width: 320px;
+    position: relative;
+    background-color: rgb(237, 28, 46);
+    border: 3px solid rgb(178, 0, 0);
+    box-shadow: rgba(0, 0, 0, 0.2) 6px 4px 2px 0px;
+}
+
+
+#menu_tl {
+    float: none;
+    height: auto;
+    margin: 2% auto 0px;
+    clear: none;
+    width: 90%;
+    border-top-left-radius: 100px;
+    border-top-right-radius: 100px;
+    border-bottom-right-radius: 100px;
+    border-bottom-left-radius: 100px;
+    min-height: 0px;
+    min-width: 320px;
+    position: relative;
+    background-color: rgb(27, 112, 161);
+    border: 3px solid rgb(19, 83, 120);
+    box-shadow: rgba(0, 0, 0, 0.2) 6px 4px 2px 0px;
+}
+
+
+#menu_subu {
+    float: none;
+    height: auto;
+    margin: 2% auto 0px;
+    clear: none;
+    width: 90%;
+    border-top-left-radius: 100px;
+    border-top-right-radius: 100px;
+    border-bottom-right-radius: 100px;
+    border-bottom-left-radius: 100px;
+    min-height: 0px;
+    min-width: 320px;
+    position: relative;
+    background-color: rgb(237, 28, 46);
+    border: 3px solid rgb(178, 0, 0);
+    box-shadow: rgba(0, 0, 0, 0.2) 6px 4px 2px 0px;
+}
+
+
+
+#menu_mexib {
+    float: none;
+    height: auto;
+    margin: 2% auto 0px;
+    clear: none;
+    width: 90%;
+    border-top-left-radius: 100px;
+    border-top-right-radius: 100px;
+    border-bottom-right-radius: 100px;
+    border-bottom-left-radius: 100px;
+    min-height: 0px;
+    min-width: 320px;
+    position: relative;
+    background-color: rgb(35, 115, 67);
+    border: 3px solid rgb(9, 69, 33);
+    box-shadow: rgba(0, 0, 0, 0.2) 6px 4px 2px 0px;
+}
+
+
+
+#menu_gdl {
+    float: none;
+    height: auto;
+    margin: 2% auto 0px;
+    clear: none;
+    width: 90%;
+    border-top-left-radius: 100px;
+    border-top-right-radius: 100px;
+    border-bottom-right-radius: 100px;
+    border-bottom-left-radius: 100px;
+    min-height: 0px;
+    min-width: 320px;
+    position: relative;
+    background-color: rgb(237, 28, 46);
+    border: 3px solid rgb(178, 0, 0);
+    box-shadow: rgba(0, 0, 0, 0.2) 6px 4px 2px 0px;
+}
+
+
+
+#menu_mty {
+    float: none;
+    height: auto;
+    margin: 2% auto 0px;
+    clear: none;
+    width: 90%;
+    border-top-left-radius: 100px;
+    border-top-right-radius: 100px;
+    border-bottom-right-radius: 100px;
+    border-bottom-left-radius: 100px;
+    min-height: 0px;
+    min-width: 320px;
+    position: relative;
+    background-color: rgb(237, 28, 46);
+    border: 3px solid rgb(178, 0, 0);
+    box-shadow: rgba(0, 0, 0, 0.2) 6px 4px 2px 0px;
+}

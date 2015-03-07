@@ -1,0 +1,22 @@
+/*------- Go Deeper -------*/
+animation: currentToLeft 0.4s forwards;
+@keyframes currentToLeft {
+  0%   { transform: translateX(0); }
+  100% { transform: translateX(-100%); }
+}
+animation: rightToCurrent 0.4s forwards;
+@keyframes rightToCurrent {
+  0%   { transform: translateX(100%); }
+  100% { transform: translateX(0); }
+}
+/*------- Go Back -------*/
+animation: leftToCurrent 0.4s forwards;
+@keyframes leftToCurrent {
+  0%   { transform: translateX(-100%); }
+  100% { transform: translateX(0); }
+}
+animation: currentToRight 0.4s forwards;
+@keyframes currentToRight {
+  0%   { transform: translateX(0); }
+  100% { transform: translateX(100%); }
+}
