@@ -1,0 +1,16 @@
+{
+	"name": "Metro MX",
+	"description": "App para facilitar informacion y orientacion en los principales medios de transporte colectivo de México",
+	"default_locale": "es",
+	"developer": {
+		"name": "Unam Mobile"
+	},
+	"icons": {
+		"128":"/icon/Metro Mx_icon.png "
+	},
+      "orientation": [
+    "portrait"
+  ],
+	"launch_path":"/home.html",
+	"version": "0.01"
+}
